@@ -312,8 +312,8 @@ class Matrix():
         '''
         Generates a diagonal block matrix from the given matrices, i.e.:
         
-        [self,    0  ]
-        [ 0,   matrix]
+        ⎧ self,    0  ⎫
+        ⎩ 0,   matrix ⎭
         
         Params:
             - matrix    The second matrix in the block
